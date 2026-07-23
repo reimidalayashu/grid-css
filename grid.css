@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    border: 5px solid black;
+    display: grid;
+    gap: 10px;
+}
+#two{
+    background-color: aquamarine;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 11;
+}
+#three{
+    background-color:brown;
+    grid-row-start: 2;
+    grid-row-end:  4;
+    grid-column-start:  1;
+    grid-column-end: 6;
+}
+#four{
+    background-color:blueviolet;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 6 ;
+    grid-column-end: 8;
+}
+#five{
+    background-color:chocolate;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 8;
+    grid-column-end: 11;
+}
+#six{
+    background-color:crimson;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#seven{
+    background-color:coral;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+#eight{
+    background-color: darkmagenta;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+#nine{
+    background-color: darkseagreen;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start:  8;
+    grid-column-end: 11;
+}
